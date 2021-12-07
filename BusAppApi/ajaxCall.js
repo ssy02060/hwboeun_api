@@ -26,7 +26,7 @@ $(document).ready(function(){
         //post with ajax
         $.ajax({
             type:"POST",
-            url: "/www/BusAppApi/api/user/create.php",
+            url: "/www/hwboeun_api/BusAppApi/api/user/create.php",
             data: test,
             ContentType:"application/json",
 
@@ -49,7 +49,7 @@ $(document).ready(function(){
        
        var req;
        req=new XMLHttpRequest();
-       req.open("GET", '/www/BusAppApi/api/user/read.php',true);
+       req.open("GET", '/www/hwboeun_api/BusAppApi/api/user/read.php',true);
        req.send();
       
        req.onload=function(){
